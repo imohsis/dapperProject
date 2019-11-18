@@ -47,6 +47,7 @@ namespace CrudDapper.Repository
                     commandType: CommandType.StoredProcedure);
             }
         }
+      //  test
 
         public async Task<Members> GetUser(int Id)
         {
